@@ -1,0 +1,64 @@
+body{
+   background: rgb(0,172,249);
+    background: linear-gradient(185deg, rgba(0,172,249,1) 58%, rgba(0,117,255,1) 70%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul {
+    font-family: Arial;
+    font-size: 18px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(40, 153, 245);
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+}
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 12px 14px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(15, 142, 192);
+  }
+
+ .botname {
+    font-family: Arial;
+    font-size: medium;
+    font-weight: auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.desc {
+font-family: Arial;
+margin-top: 15px;
+text-align: center;
+
+}
+
+/* bot logo css */
+
+.logo-row{
+  text-align: center;
+}
+.logo {
+  padding: 5;
+  margin: 5;
+  width:  90x;
+  height: 137px;
+  margin-top: 15px;
+  text-align: center;
+}
